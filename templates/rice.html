@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="bg">
+        <img src="../static/images/rice.jpg" alt="" height="795px" width="100%">
+        <h1>Rice products</h1>
+    </div>
+
+
+        <div class="header">  
+            <h1>Grocery</h1>
+            <input type="text" placeholder="Search for products, brands and more" class="search1">
+            <button type="submit" class="glass1"><i class="fa-solid fa-magnifying-glass" style="color: black;"></i></button>
+            <a href="#" class="login1">Login</a>
+            <p>Become a Seller</p>
+            <p>More  <i class="fa-solid fa-chevron-down"></i></p>
+            <p  class="icon"><i class="fa-solid fa-cart-shopping" style="color: black;"></i>  cart</p>
+            <a href="{{url_for('flipkart')}}" class="homie"><i class="fa-solid fa-house"></i> Home</a>
+        </div> 
+
+        <div class="products">
+            <div class="riceitems">
+                <h1>Basmati Rice</h1>
+                <img src="../static/images/indiagate.png" alt="" height="150px" width="150px">
+                <h2>Sponsored : Indiagate</h2>
+                <select>
+                    <option value="1kg">1Kg</option>
+                    <option value="2kg">2Kg</option>
+                    <option value="3kg">3Kg</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/1/decrement" method="post"><button type="submit">-</button></form>
+                    <h1>{{count1}}</h1>
+                    <form action="/operate/1/increment" method="post"><button type="submit">+</button></form>
+                    
+                </div>
+            </div>
+
+            <div class="riceitems">
+                <h1>Zeera samba Rice</h1>
+                <img src="../static/images/zeerasamba.png" alt="" height="150px" width="150px">
+                <h2>Sponsored : Dawaat</h2>
+                <select>
+                    <option value="1kg">1Kg</option>
+                    <option value="1kg">2Kg</option>
+                    <option value="1kg">3Kg</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/2/decrement" method="post"><button type="submit">-</button></form>
+                    <h1>{{count2}}</h1>
+                    <form action="/operate/2/increment" method="post"><button type="submit">+</button></form>
+                    
+                </div>
+            </div>
+
+            <div class="riceitems">
+                <h1>Idly Rice</h1>
+                <img src="../static/images/basmatirice.png" alt="" height="150px" width="150px">
+                <h2>Sponsored : Fortune</h2>
+                <select>
+                    <option value="1kg">1Kg</option>
+                    <option value="1kg">2Kg</option>
+                    <option value="1kg">3Kg</option>
+                </select>
+                <h3>Add Item</h3>
+                <div class="addsub">
+                    <form action="/operate/3/decrement" method="post"><button type="submit">-</button></form>
+                    <h1>{{count3}}</h1>
+                    <form action="/operate/3/increment" method="post"><button type="submit">+</button></form>
+                    
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>
+
+
+

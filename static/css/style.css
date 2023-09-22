@@ -1,0 +1,427 @@
+header{
+    background-color: blue;
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+header img{
+    /* background-color: black; */
+    height: 75px;
+    margin-left: 230px;
+}
+
+.search{
+    height: 40px;
+    width: 530px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.glass{
+    position: absolute;
+    left: 51%;
+    font-size: 20px;
+    top: 4%;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.login{
+    border: 1px solid black;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 21px;
+    text-decoration-line: none;
+    margin-top: 15.5px;
+    margin-left: 20px;
+}
+
+header p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.homie{
+    text-decoration-line: none;
+    font-size: 22px;
+    margin-left:37px;
+    margin-top: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+/* items section starts here  */
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    height: 95px;
+    /* border-bottom: 5px solid gray; */
+    list-style: none;
+    /* width: 100%; */
+    padding: 0;
+}
+
+
+
+.items  ,p{
+    margin-top: -5px;
+    margin-left: 7px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.items a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.dropdw ul li a{
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.grodiv{
+    position: relative;
+}
+
+.dropdw{
+    display: none;
+    position: absolute;
+    top: 95px;
+}
+
+.dropdw ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdw ul li{
+    display: block;
+    padding: 0;
+}
+
+.grodiv:hover .dropdw{
+    display: block;
+    background-color: white;
+    height: 150px;
+    width: 130px;
+
+}
+
+
+/* .grodiv:hover .dropdw ul li{
+    border-bottom: 1px solid black;
+} */
+
+.fashion{
+    margin-left: 35px;
+}
+
+
+
+/* rice page starts here  */
+
+
+.bg img{
+    filter: brightness(50%);
+    filter: blur(4px);
+    position: relative;
+}
+
+.bg h1{
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    color: white;
+}
+
+.header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.header h1{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+
+
+.search1{
+    height: 40px;
+    width: 530px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.glass1{
+    position: absolute;
+    left: 46.5%;
+    font-size: 20px;
+    top: 32%;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.login1{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 21px;
+    text-decoration-line: none;
+    margin-top: 15.5px;
+    margin-left: 20px;
+}
+
+.header p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 40px;
+}
+
+.products{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.riceitems{
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    background-color: #7777;
+    text-align: center;
+}
+
+.riceitems h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.riceitems h3{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.riceitems select{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.addsub{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.addsub h1{
+    margin-top:2.5px;
+}
+
+.addsub button{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+
+/* tinkering section starts here  */
+
+
+.normal1{
+    margin-left: 15px;
+    margin-top: 0.1px;
+}
+
+.normal2{
+    margin-left: 2px;
+    margin-top: 0.5px;
+}
+
+.normal3{
+    margin-left: 27px;
+    margin-top: 0.2px;
+}
+
+.normal4{
+    margin-left: 9px;
+    margin-top: 0.5px;
+}
+
+.normal5{
+    margin-left: 35px;
+    margin-top: 0.5px;
+}
+
+.normal6{
+    margin-left: -16px;
+    margin-top: 0.5px;
+}
+
+.normal7{
+    margin-top: 0.5px;
+}
+
+.pai{
+    margin-left: -15px;
+}
+
+.normal8{
+    margin-top: 0.2px;
+}
+
+
+
+/* login page starts here  */
+
+.bgbgimg img{
+    filter: brightness(50%);
+    position: relative;
+}
+
+.bluewhite{
+    background-color: #4683da;
+    height: 600px;
+    top: 12%;
+    position: absolute;
+    left: 25%;
+    width: 350px;
+}
+
+.bluewhite h1{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.bluewhite p{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bluewhite img{
+    margin-left: -65px;
+    margin-top: 50px;
+}
+
+
+.whiteblack{
+    background-color: #ffffff;
+    height: 600px;
+    top: 12%;
+    position: absolute;
+    left: 45.5%;
+    width: 500px;
+}
+
+.whiteblack .requestotp input{
+    border: none;
+    margin-top: 90px;
+    font-weight: 550;
+    color: rgb(231, 221, 221);
+    width: 85%;
+    margin-left: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.whiteblack .requestotp p{
+    font-size: 15px;
+    margin-left: 31px;
+    margin-top: 45px;
+    color: gray;
+}
+
+.whiteblack .requestotp button{
+    font-size: 22px;
+    margin-top: 10px;
+    height: 50px;
+    width: 86%;
+    background-color: rgb(238, 84, 28);
+    border: none;
+    color: white;
+    margin-left: 31px;
+}
+
+.newww{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sp{
+    color: #4683da;
+}
+
+
+.jinjacode{
+    margin-left: 215px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.otpform{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.otpform input{
+    width: 150px;
+    padding: 5px 0;
+    font-size: 22px;
+}
+
+.otpform button{
+    width: 100px;
+    padding: 3px 0;
+    font-size: 22px;
+    background-color: rgb(238, 84, 28);
+    border: none;
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="bgbg">
+        <div class="bgbgimg">
+            <img src="../static/images/login_bg.png" alt="" width="100%">
+        </div>
+        <div class="bluewhite">
+            <h1>Login</h1>
+            <p>Get access to your <br> Orders, Wishlist and <br> Recommendations</p>
+            <img src="../static/images/flipcartt-removebg-preview.png" alt="" height="300px" width="400px">
+        </div>
+        <div class="whiteblack">
+            <form action="/login" method="post" class="requestotp">
+                <input type="text" name="email" placeholder="Enter Email/Mobile number">
+                <p>By continuing, you agree to Flipkart's <span class="sp">Terms of Use</span> and <span class="sp">Privacy <br> Policy.</span> </p>
+                <button type="submit" value="submit1" name="btn1">Request OTP</button>
+            </form>
+            {%if code%}
+            <h1 class="jinjacode">{{code}}</h1>
+            {% endif %}
+            <div class="secondform">
+                <form action="/login" method="post" class="otpform">
+                    <input type="text" placeholder="Enter here" name="otp"><br>
+                    <button type="submit" value="submit2" name="btn2">Login</button>
+                </form>
+            </div>
+            <p class="newww">New to Flipkart? Create an account</p>
+
+        </div>
+
+
+
+    </div>
+</body>
+</html>
